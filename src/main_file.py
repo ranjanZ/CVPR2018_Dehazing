@@ -32,8 +32,7 @@ b_patch_Y = 128
 
 try:
     hazy_image_path=sys.argv[1]
-    f_out="out2_"+hazy_image_path.split("/")[-1]
-    out_image_path= hazy_image_path
+    out_image_path=sys.argv[2]
 except:
     print"-----------------------------------------------------------------------------------------------------"
     print "Please provide hazy image directory  as 1st argument and  Outputdirectory as second argument"
@@ -265,7 +264,7 @@ def evaluate(model_path):
 model_path=base_dir+"models/model_weights.h5"
 models=get_trained_model(model_path)
 J,I,T,A=dehaze_fast(hazy_image_path,models)
-imsave(out_image_path+f_out,J)
+imsave(out_image_path,J)
 
 
 
