@@ -1,4 +1,10 @@
-To run the code  install the  necessary packages.
+To run the code  install the  necessary python packages.
+
+keras,tensorflow,numpy,scipy,skimage,matplotlib
+
+
+
+
 #---------------------------
 $cd src/
 $python main.py  Hazy_Image_Directory   Output_Image_Directory

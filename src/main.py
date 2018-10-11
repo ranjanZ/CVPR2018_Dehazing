@@ -8,6 +8,7 @@ from gf import *
 from skimage.io import imread,imsave
 import time
 from model import *
+import matplotlib.pyplot as plt
 
 #os.environ['CUDA_VISIBLE_DEVICES'] ='-1'
 # run cvpr.py  ../data/cvpr2018/IndoorValidationHazy/        ../data/cvpr2018/IndoorValidationHazy_out/
