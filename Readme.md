@@ -44,7 +44,7 @@ $python main.py  ../data/hazy_img/ ../data/out/
 ```
 
 ## Publication
-Sanchayan Santra, Ranjan Mondal, and Bhabatosh Chanda. "Learning a Patch Quality Comparator for Single Image Dehazing." IEEE Transactions on Image Processing 27, no. 9 (2018).
+Ranjan Mondal, Sanchayan Santra and Bhabatosh Chanda. "Image Dehazing by Joint Estimation of Transmittance and Airlight using Bi-Directional Consistency Loss Minimized FCN" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshop. 2018, pp-920-928.
 
 BibTeX:
 ```
