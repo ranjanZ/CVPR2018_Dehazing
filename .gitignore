@@ -8,7 +8,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+models/temp_models/*.h5
 # Distribution / packaging
 .Python
 build/
